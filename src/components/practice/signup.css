@@ -1,0 +1,15 @@
+.signUp{
+    float: right;
+}
+.container-fluid{
+    background-image: url('../../assets/picture/bg1.jpg');
+    height:auto;
+    background-size: cover;
+}
+.colunmstyle1{
+    background-color:skyblue;
+    
+    opacity:0.6;
+    height:auto;
+
+}
