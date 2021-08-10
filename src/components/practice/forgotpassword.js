@@ -9,7 +9,7 @@ const Forgotpassword  = () => {
     
         <>
     
-    <div className="container" >
+    <div className="container-fluid" style={{ backgroundColor:"black" ,height:"649px"}} >
     <div className="row justify-content-center mx-md-2 my-md-2 my-lg-0 mx-lg-0" >
     <div className="col-md-4 col-lg-6 col-xl-4 rounded mt-5 " style={{backgroundColor:"lightblue",height:"400px"}} >
     
