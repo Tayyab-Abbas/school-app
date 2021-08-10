@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import front from  '../../assets/picture/front.jpg';
+import './signin.css';
 import { Formik } from "formik";
 import * as Yup from "yup";
 const Signin  = () => {
@@ -9,12 +10,11 @@ const Signin  = () => {
 
     return(
     
-        < >
-    
-    <div className="container-fluid" style={{ height:"649px",backgroundColor:"brown", position:"absolute"}}>
-    <div className="row  mx-2 my-5 " >
-    <div className="col-md-3 rounded mt-5 mr-5 " style={{backgroundColor:"orange",height:"400px"}} >
-    
+        <>
+    <div className="  container-fluid" style={{ position:"absolute"}}>
+    <div className="row  mx-3 my-5 " >
+    <div className="col-md-5 rounded mt-5" style={{backgroundColor:"orange",height:"400px"}} >
+
     <Formik
 							initialValues={{}}
 							validationSchema={SigninValidationSchema}
@@ -61,13 +61,12 @@ const Signin  = () => {
     </Formik>
 
     </div>
-<div className=" col-md-7" >
-  <img src={front} alt="dd" className="img mt-3 ml-5 w-100 h-100"/>
+<div className=" col-md-5" >
+  <img src={front} alt="dd" className="img mt-5 w-100 h-100"/>
 </div>
 
     </div>
     </div>
- 
     </>
     
     )
