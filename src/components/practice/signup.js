@@ -13,7 +13,7 @@ import * as Yup from "yup";
     
         <>
     
-    <div className="container-fluid "  >
+    <div className="signupcontainer container-fluid "  >
 
    
     <div className="row justify-content-center mx-5 " >

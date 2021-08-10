@@ -1,7 +1,7 @@
 .signUp{
     float: right;
 }
-.container-fluid{
+.signupcontainer{
     background-image: url('../../assets/picture/bg1.jpg');
     height:auto;
     background-size: cover;
